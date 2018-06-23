@@ -13,11 +13,12 @@ import { LanguaguesComponent } from './sections/languagues/languagues.component'
 import { InterestsComponent } from './sections/interests/interests.component';
 import { ClausuleComponent } from './sections/clausule/clausule.component';
 import { ContactComponent } from './sections/contact/contact.component';
+import { SectionHeaderComponent } from './sections/section-header/section-header.component';
 
 library.add(fas, fab);
 
 @NgModule({
-  declarations: [AppComponent, EducationComponent, ExperienceComponent, SkillsComponent, LanguaguesComponent, InterestsComponent, ClausuleComponent, ContactComponent],
+  declarations: [AppComponent, EducationComponent, ExperienceComponent, SkillsComponent, LanguaguesComponent, InterestsComponent, ClausuleComponent, ContactComponent, SectionHeaderComponent],
   imports: [BrowserModule, NgbModule.forRoot(), FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent]
