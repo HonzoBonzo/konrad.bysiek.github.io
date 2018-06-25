@@ -14,11 +14,14 @@ import { InterestsComponent } from './sections/interests/interests.component';
 import { ClausuleComponent } from './sections/clausule/clausule.component';
 import { ContactComponent } from './sections/contact/contact.component';
 import { SectionHeaderComponent } from './sections/section-header/section-header.component';
+import { TechnologiesParagraphComponent } from './technologies-paragraph/technologies-paragraph.component';
+import { ResponsibilitiesParagraphComponent } from './responsibilities-paragraph/responsibilities-paragraph.component';
+import { PeriodParagraphComponent } from './period-paragraph/period-paragraph.component';
 
 library.add(fas, fab);
 
 @NgModule({
-  declarations: [AppComponent, EducationComponent, ExperienceComponent, SkillsComponent, LanguaguesComponent, InterestsComponent, ClausuleComponent, ContactComponent, SectionHeaderComponent],
+  declarations: [AppComponent, EducationComponent, ExperienceComponent, SkillsComponent, LanguaguesComponent, InterestsComponent, ClausuleComponent, ContactComponent, SectionHeaderComponent, TechnologiesParagraphComponent, ResponsibilitiesParagraphComponent, PeriodParagraphComponent],
   imports: [BrowserModule, NgbModule.forRoot(), FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent]
